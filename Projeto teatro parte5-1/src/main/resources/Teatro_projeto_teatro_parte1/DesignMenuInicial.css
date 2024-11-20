@@ -1,0 +1,16 @@
+.Fundo {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 30;
+}
+.FundoEstagio2 {
+ -fx-background-color: #bb1f36;
+ -fx-background-radius: 20;
+}
+.FundoEstagio3 {
+ -fx-background-color: #bb1f36;
+}
+.TextImprot {
+-fx-background-color: #b1afbb;
+ -fx-background-radius: 20;
+ -fx-text-fill: #FFFFFF;
+}

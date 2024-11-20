@@ -1,0 +1,31 @@
+.Fundo {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20;
+}
+.FundoEstagio2 {
+ -fx-background-color: #bb1f36;
+ -fx-background-radius: 20;
+}
+.FundoEstagio3 {
+ -fx-background-color: #bb1f36;
+}
+.TextImprot {
+-fx-background-color: #b1afbb;
+ -fx-background-radius: 15;
+ -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #000000;
+}
+.BotaoEntrar {
+    -fx-background-color: #1f41bb;
+    -fx-background-radius: 5;
+    -fx-text-fill: #FFFFFF;
+}
+.BotaoCadastro {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+.DataDeNascimento {
+    -fx-background-color: #b1afbb;
+    -fx-text-fill: #000000;
+    -fx-prompt-text-fill: #000000;
+}

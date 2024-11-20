@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-radius: 20; -fx-background-radius: 20;" styleClass="Fundo" stylesheets="@DesignLogin.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Teatro_projeto_teatro_parte1.Controller.Controller">
+   <children>
+      <Pane layoutX="1.0" prefHeight="600.0" prefWidth="900.0" styleClass="Fundo" stylesheets="@DesignLogin.css">
+         <children>
+            <Pane layoutX="357.0" prefHeight="600.0" prefWidth="200.0" styleClass="FundoEstagio3" stylesheets="@DesignLogin.css" />
+            <Pane layoutX="358.0" prefHeight="600.0" prefWidth="543.0" styleClass="FundoEstagio2" stylesheets="@DesignLogin.css">
+               <children>
+                  <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="100.0" layoutY="216.0" prefHeight="46.0" prefWidth="365.0" rotate="-34.2" text="Teatro" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="60.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="125.0" layoutY="265.0" prefHeight="46.0" prefWidth="365.0" rotate="-34.0" text="Miranhas" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="60.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="97.0" layoutY="394.0" prefHeight="46.0" prefWidth="365.0" text="A arte feita em" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="102.0" layoutY="430.0" prefHeight="46.0" prefWidth="365.0" text="“Vai teia!!”" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="29.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="177.0" fitWidth="230.0" layoutX="289.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/HomemAranha.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnFechar" fitHeight="27.0" fitWidth="92.0" layoutX="493.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/MacosClose.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnMinimizar" fitHeight="27.0" fitWidth="92.0" layoutX="467.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/MacosMinimizar.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="5.0" layoutY="191.0" prefHeight="46.0" prefWidth="117.0" text="E-mail:" textAlignment="CENTER">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="29.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="5.0" layoutY="301.0" prefHeight="46.0" prefWidth="117.0" text="Senha:" textAlignment="CENTER">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="29.0" />
+               </font>
+            </Label>
+            <TextField fx:id="tfEmail" layoutX="12.0" layoutY="248.0" prefHeight="43.0" prefWidth="335.0" promptText="example@gmail.com" styleClass="TextImprot" stylesheets="@DesignLogin.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="tfSenha" layoutX="10.0" layoutY="353.0" prefHeight="43.0" prefWidth="335.0" promptText="••••••" styleClass="TextImprot" stylesheets="@DesignLogin.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </PasswordField>
+            <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="106.0" layoutY="76.0" prefHeight="70.0" prefWidth="143.0" text="Login" textAlignment="CENTER">
+               <font>
+                  <Font name="Arial Bold" size="50.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnEntrar" layoutX="101.0" layoutY="499.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="154.0" styleClass="BotaoEntrar" stylesheets="@DesignLogin.css" text="Entrar">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="29.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnCadastrar" layoutX="101.0" layoutY="412.0" mnemonicParsing="false" onMouseClicked="#btnCadastrar" prefHeight="46.0" prefWidth="154.0" styleClass="BotaoCadastro" stylesheets="@DesignLogin.css" text="Cadastrar" textOverrun="WORD_ELLIPSIS">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="21.0" />
+               </font>
+            </Button>
+         </children></Pane>
+   </children>
+</AnchorPane>
