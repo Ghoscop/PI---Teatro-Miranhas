@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" styleClass="Fundo" stylesheets="@DesignLogin.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="1.0" prefHeight="600.0" prefWidth="900.0" styleClass="Fundo" stylesheets="@DesignLogin.css">
+         <children>
+            <Pane layoutX="357.0" prefHeight="600.0" prefWidth="200.0" styleClass="FundoEstagio3" stylesheets="@DesignLogin.css" />
+            <Pane layoutX="358.0" prefHeight="600.0" prefWidth="543.0" styleClass="FundoEstagio2" stylesheets="@DesignLogin.css">
+               <children>
+                  <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="100.0" layoutY="216.0" prefHeight="46.0" prefWidth="365.0" rotate="-34.2" text="Teatro" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="60.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="125.0" layoutY="265.0" prefHeight="46.0" prefWidth="365.0" rotate="-34.0" text="Miranhas" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="60.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="97.0" layoutY="394.0" prefHeight="46.0" prefWidth="365.0" text="A arte feita em" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="29.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="102.0" layoutY="430.0" prefHeight="46.0" prefWidth="365.0" text="“Vai teia!!”" textAlignment="CENTER" textFill="WHITE">
+                     <font>
+                        <Font name="Impact" size="29.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="177.0" fitWidth="230.0" layoutX="289.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/HomemAranha.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="5.0" layoutY="191.0" prefHeight="46.0" prefWidth="117.0" text="E-mail:" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS" size="29.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="5.0" layoutY="301.0" prefHeight="46.0" prefWidth="117.0" text="Senha:" textAlignment="CENTER">
+               <font>
+                  <Font name="Comic Sans MS" size="29.0" />
+               </font>
+            </Label>
+            <TextField layoutX="12.0" layoutY="248.0" prefHeight="43.0" prefWidth="335.0" promptText="example@gmail.com" styleClass="TextImprot" stylesheets="@DesignLogin.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </TextField>
+            <PasswordField layoutX="10.0" layoutY="353.0" prefHeight="43.0" prefWidth="335.0" promptText="*********" styleClass="TextImprot" stylesheets="@DesignLogin.css">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </PasswordField>
+         </children></Pane>
+   </children>
+</AnchorPane>
