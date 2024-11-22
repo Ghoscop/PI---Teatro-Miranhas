@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="Fundo" stylesheets="@DesignMenuInicial.css" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Teatro_projeto_teatro_parte1.Controller.ControllerMenuInicial">
+        <children>
+            <Pane layoutX="1.0" prefHeight="600.0" prefWidth="900.0" styleClass="Fundo" stylesheets="@DesignMenuInicial.css">
+                <children>
+                    <Pane layoutX="124.0" layoutY="-6.0" prefHeight="113.0" prefWidth="783.0" styleClass="FundoEstagio2" stylesheets="@DesignMenuInicial.css">
+               <children>
+                  <ImageView fx:id="btnFechar" fitHeight="27.0" fitWidth="92.0" layoutX="736.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/MacosClose.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnMinimizar" fitHeight="27.0" fitWidth="92.0" layoutX="709.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/MacosMinimizar.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <ImageView fx:id="btnPecaB" fitHeight="182.0" fitWidth="173.0" layoutX="181.0" layoutY="282.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagens/LebronJames.jpg" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="800.0" minX="250.0" minY="40.0" width="800.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="btnPecaA" fitHeight="183.0" fitWidth="173.0" layoutX="182.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagens/euseila.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="400.0" minX="50.0" minY="160.0" width="400.0" />
+               </viewport>
+            </ImageView>
+            <ImageView fx:id="btnPecaC" fitHeight="183.0" fitWidth="173.0" layoutX="180.0" layoutY="442.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagens/abacaxi.png" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="340.0" minX="200.0" minY="160.0" width="400.0" />
+               </viewport>
+            </ImageView>
+            <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="344.0" layoutY="126.0" prefHeight="46.0" prefWidth="128.0" text="Peça A" textAlignment="CENTER" textFill="#030303">
+               <font>
+                  <Font name="Impact" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="344.0" layoutY="276.0" prefHeight="46.0" prefWidth="128.0" text="Peça B" textAlignment="CENTER" textFill="#030303">
+               <font>
+                  <Font name="Impact" size="31.0" />
+               </font>
+            </Label>
+            <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="344.0" layoutY="442.0" prefHeight="46.0" prefWidth="128.0" text="Peça C" textAlignment="CENTER" textFill="#030303">
+               <font>
+                  <Font name="Impact" size="31.0" />
+               </font>
+            </Label>
+            <TextArea editable="false" layoutX="362.0" layoutY="172.0" nodeOrientation="LEFT_TO_RIGHT" pickOnBounds="false" prefHeight="96.0" prefWidth="307.0" scaleShape="false" styleClass="FundoEstagio2" stylesheets="@DesignMenuInicial.css" text="Robo Ed em sua mais nova versão trará em uma peça para ambas as idades que busca encinar bons modos de fala e ações no dia a dia, uma peça entuitiva e divertida." wrapText="true" />
+            <TextArea editable="false" layoutX="362.0" layoutY="328.0" pickOnBounds="false" prefHeight="96.0" prefWidth="307.0" styleClass="FundoEstagio2" stylesheets="@DesignMenuInicial.css" text="Lebron James entrara em cena mostrando seu novo lado fora do basquete. &#10;É uma peça no estilo de canto e focada no publico jovem.&#10;" wrapText="true" />
+            <TextArea editable="false" layoutX="362.0" layoutY="488.0" pickOnBounds="false" prefHeight="96.0" prefWidth="307.0" styleClass="FundoEstagio2" stylesheets="@DesignMenuInicial.css" text="A famosa casa do Bob esponja cria pernas&#10;e busca a saida do fundo do mar, para a vida&#10;terrena novamente, passando por varios inimigos.&#10;Uma peça para adultos bastante violenta.&#10;" wrapText="true" />
+                    <Button fx:id="btnVoltar" layoutX="735.0" layoutY="335.0" mnemonicParsing="false" onMouseClicked="#btnVoltar" prefHeight="46.0" prefWidth="160.0" styleClass="BotaoEntrar" stylesheets="@DesignLogin.css" text="Voltar">
+                        <font>
+                            <Font name="Franklin Gothic Medium" size="29.0" />
+                        </font>
+                    </Button>
+                </children></Pane>
+              <Pane layoutY="-12.0" prefHeight="612.0" prefWidth="146.0" styleClass="FundoEstagio2" stylesheets="@DesignMenuInicial.css">
+         <children>
+                      <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="-124.0" layoutY="65.0" prefHeight="46.0" prefWidth="365.0" rotate="-18.4" text="Teatro" textAlignment="CENTER" textFill="WHITE">
+                          <font>
+                              <Font name="Impact" size="31.0" />
+                          </font>
+                      </Label>
+                      <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="-119.0" layoutY="94.0" prefHeight="46.0" prefWidth="365.0" rotate="-18.4" stylesheets="@DesignMenuInicial.css" text="Miranhas" textAlignment="CENTER" textFill="WHITE">
+                          <font>
+                              <Font name="Impact" size="31.0" />
+                          </font>
+                      </Label>
+                      <ImageView fitHeight="73.0" fitWidth="97.0" layoutX="73.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                              <Image url="@../Imagens/HomemAranha.png" />
+                          </image>
+                      </ImageView>
+         </children>
+      </Pane>
+        </children>
+</AnchorPane>
