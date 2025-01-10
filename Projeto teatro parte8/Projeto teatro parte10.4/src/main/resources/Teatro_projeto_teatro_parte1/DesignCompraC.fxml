@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" styleClass="Fundo" stylesheets="@DesignCompra.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Teatro_projeto_teatro_parte1.Entities.Controller.ControllerCompra">
+        <children>
+            <Pane layoutX="1.0" prefHeight="600.0" prefWidth="900.0" styleClass="Fundo" stylesheets="@DesignCompra.css">
+                <children>
+            <ImageView fitHeight="517.0" fitWidth="753.0" layoutX="155.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imagens/Palco.jpeg" />
+               </image>
+               <viewport>
+                  <Rectangle2D height="390.0" minX="36.0" minY="18.0" width="550.0" />
+               </viewport>
+            </ImageView>
+            <RadioButton fx:id="radio1" layoutX="257.0" layoutY="228.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio2" layoutX="272.0" layoutY="231.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio3" layoutX="287.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio4" layoutX="302.0" layoutY="233.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio5" layoutX="317.0" layoutY="233.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio6" layoutX="332.0" layoutY="233.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio7" layoutX="255.0" layoutY="243.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio8" layoutX="270.0" layoutY="246.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio9" layoutX="285.0" layoutY="247.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio11" layoutX="315.0" layoutY="248.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio12" layoutX="330.0" layoutY="248.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio10" layoutX="300.0" layoutY="248.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio13" layoutX="250.0" layoutY="258.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio14" layoutX="265.0" layoutY="261.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio15" layoutX="280.0" layoutY="262.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio16" layoutX="295.0" layoutY="263.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio17" layoutX="310.0" layoutY="263.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio18" layoutX="325.0" layoutY="263.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio19" layoutX="248.0" layoutY="273.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio20" layoutX="263.0" layoutY="276.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio21" layoutX="278.0" layoutY="277.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio23" layoutX="308.0" layoutY="278.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio24" layoutX="323.0" layoutY="278.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio22" layoutX="293.0" layoutY="278.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio25" layoutX="240.0" layoutY="304.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio26" layoutX="255.0" layoutY="307.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio27" layoutX="270.0" layoutY="308.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio28" layoutX="285.0" layoutY="309.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio29" layoutX="300.0" layoutY="309.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio30" layoutX="315.0" layoutY="309.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio31" layoutX="238.0" layoutY="319.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio32" layoutX="253.0" layoutY="322.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio33" layoutX="268.0" layoutY="323.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio34" layoutX="298.0" layoutY="324.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio35" layoutX="313.0" layoutY="324.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio36" layoutX="283.0" layoutY="324.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio37" layoutX="235.0" layoutY="339.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio38" layoutX="250.0" layoutY="342.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio39" layoutX="265.0" layoutY="343.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio40" layoutX="280.0" layoutY="344.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio41" layoutX="295.0" layoutY="344.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio42" layoutX="310.0" layoutY="344.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio43" layoutX="233.0" layoutY="354.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio44" layoutX="248.0" layoutY="357.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio45" layoutX="263.0" layoutY="358.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio47" layoutX="293.0" layoutY="359.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio48" layoutX="308.0" layoutY="359.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio46" layoutX="278.0" layoutY="359.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio49" layoutX="459.0" layoutY="235.0" mnemonicParsing="false" rotate="-96.3" />
+            <RadioButton fx:id="radio50" layoutX="475.0" layoutY="235.0" mnemonicParsing="false" rotate="-96.3" />
+            <RadioButton fx:id="radio51" layoutX="491.0" layoutY="235.0" mnemonicParsing="false" rotate="-96.3" />
+            <RadioButton fx:id="radio52" layoutX="507.0" layoutY="235.0" mnemonicParsing="false" rotate="-96.3" />
+            <RadioButton fx:id="radio53" layoutX="523.0" layoutY="235.0" mnemonicParsing="false" rotate="-96.3" />
+            <RadioButton fx:id="radio54" layoutX="538.0" layoutY="235.0" mnemonicParsing="false" rotate="-96.3" />
+            <RadioButton fx:id="radio56" layoutX="476.0" layoutY="250.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio57" layoutX="492.0" layoutY="250.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio55" layoutX="460.0" layoutY="250.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio58" layoutX="508.0" layoutY="250.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio60" layoutX="540.0" layoutY="250.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio59" layoutX="524.0" layoutY="251.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio61" layoutX="460.0" layoutY="275.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio62" layoutX="492.0" layoutY="275.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio63" layoutX="508.0" layoutY="275.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio64" layoutX="539.0" layoutY="275.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio65" layoutX="461.0" layoutY="290.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio66" layoutX="477.0" layoutY="290.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio67" layoutX="493.0" layoutY="290.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio68" layoutX="509.0" layoutY="290.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio69" layoutX="525.0" layoutY="290.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio70" layoutX="540.0" layoutY="290.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio71" layoutX="663.0" layoutY="233.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio73" layoutX="695.0" layoutY="233.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio74" layoutX="711.0" layoutY="233.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio76" layoutX="743.0" layoutY="230.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio77" layoutX="696.0" layoutY="250.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio72" layoutX="680.0" layoutY="233.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio78" layoutX="712.0" layoutY="248.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio79" layoutX="729.0" layoutY="247.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio75" layoutX="728.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio80" layoutX="745.0" layoutY="246.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio81" layoutX="673.0" layoutY="268.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio83" layoutX="705.0" layoutY="268.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio84" layoutX="721.0" layoutY="268.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio86" layoutX="753.0" layoutY="265.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio87" layoutX="706.0" layoutY="285.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio82" layoutX="690.0" layoutY="268.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio88" layoutX="722.0" layoutY="283.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio89" layoutX="739.0" layoutY="282.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio85" layoutX="738.0" layoutY="267.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio90" layoutX="755.0" layoutY="281.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio91" layoutX="686.0" layoutY="319.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio93" layoutX="718.0" layoutY="319.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio94" layoutX="734.0" layoutY="319.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio96" layoutX="766.0" layoutY="316.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio97" layoutX="719.0" layoutY="336.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio92" layoutX="703.0" layoutY="319.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio98" layoutX="735.0" layoutY="334.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio99" layoutX="752.0" layoutY="333.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio95" layoutX="751.0" layoutY="318.0" mnemonicParsing="false" />
+            <RadioButton fx:id="radio100" layoutX="768.0" layoutY="332.0" mnemonicParsing="false" />
+            <RadioButton fx:id="F2" layoutX="784.0" layoutY="177.0" mnemonicParsing="false" />
+            <RadioButton fx:id="F4" layoutX="800.0" layoutY="232.0" mnemonicParsing="false" />
+            <RadioButton fx:id="F6" layoutX="824.0" layoutY="284.0" mnemonicParsing="false" />
+            <RadioButton fx:id="C5" layoutX="283.0" layoutY="431.0" mnemonicParsing="false" />
+            <RadioButton fx:id="C3" layoutX="415.0" layoutY="432.0" mnemonicParsing="false" />
+            <RadioButton fx:id="C1" layoutX="544.0" layoutY="433.0" mnemonicParsing="false" />
+            <RadioButton fx:id="C2" layoutX="673.0" layoutY="432.0" mnemonicParsing="false" />
+            <RadioButton fx:id="C4" layoutX="809.0" layoutY="407.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B41" layoutX="816.0" layoutY="475.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B40" layoutX="800.0" layoutY="482.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B39" layoutX="783.0" layoutY="489.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B38" layoutX="765.0" layoutY="493.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B37" layoutX="745.0" layoutY="496.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B46" layoutX="820.0" layoutY="494.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B45" layoutX="804.0" layoutY="501.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B44" layoutX="787.0" layoutY="508.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B43" layoutX="769.0" layoutY="512.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B42" layoutX="749.0" layoutY="515.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B50" layoutX="817.0" layoutY="516.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B49" layoutX="801.0" layoutY="523.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B48" layoutX="784.0" layoutY="530.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B47" layoutX="766.0" layoutY="534.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B15" layoutX="460.0" layoutY="497.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B16" layoutX="476.0" layoutY="497.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B17" layoutX="492.0" layoutY="497.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B18" layoutX="508.0" layoutY="497.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B19" layoutX="524.0" layoutY="497.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B20" layoutX="539.0" layoutY="497.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B21" layoutX="461.0" layoutY="512.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B22" layoutX="477.0" layoutY="512.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B23" layoutX="493.0" layoutY="512.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B24" layoutX="509.0" layoutY="512.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B25" layoutX="525.0" layoutY="512.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B26" layoutX="540.0" layoutY="512.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B27" layoutX="462.0" layoutY="559.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B28" layoutX="494.0" layoutY="559.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B29" layoutX="510.0" layoutY="559.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B30" layoutX="541.0" layoutY="559.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B31" layoutX="463.0" layoutY="574.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B32" layoutX="479.0" layoutY="574.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B33" layoutX="495.0" layoutY="574.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B34" layoutX="511.0" layoutY="574.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B35" layoutX="527.0" layoutY="574.0" mnemonicParsing="false" />
+            <RadioButton fx:id="B36" layoutX="542.0" layoutY="574.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A8" layoutX="457.0" layoutY="147.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A11" layoutX="500.0" layoutY="185.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A13" layoutX="535.0" layoutY="146.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A15" layoutX="569.0" layoutY="146.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A7" layoutX="423.0" layoutY="146.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A5" layoutX="409.0" layoutY="185.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A10" layoutX="446.0" layoutY="184.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A14" layoutX="561.0" layoutY="184.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A17" layoutX="596.0" layoutY="184.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A3" layoutX="373.0" layoutY="185.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A2" layoutX="347.0" layoutY="170.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A4" layoutX="387.0" layoutY="167.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A6" layoutX="425.0" layoutY="168.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A9" layoutX="458.0" layoutY="167.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A1" layoutX="329.0" layoutY="170.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A16" layoutX="578.0" layoutY="167.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A18" layoutX="617.0" layoutY="166.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A19" layoutX="672.0" layoutY="168.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A20" layoutX="689.0" layoutY="168.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A12" layoutX="544.0" layoutY="167.0" mnemonicParsing="false" />
+                    <Pane layoutX="124.0" layoutY="-6.0" prefHeight="94.0" prefWidth="783.0" styleClass="FundoEstagio2" stylesheets="@DesignCompra.css">
+               <children>
+                  <ImageView fx:id="btnFechar" fitHeight="27.0" fitWidth="92.0" layoutX="731.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/MacosClose.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="btnMinimizar" fitHeight="27.0" fitWidth="92.0" layoutX="704.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Imagens/MacosMinimizar.png" />
+                     </image>
+                  </ImageView>
+               </children></Pane>
+            <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="294.0" layoutY="28.0" prefHeight="53.0" prefWidth="424.0" text="Seleciona a área:" textAlignment="CENTER" textFill="#030303">
+               <font>
+                  <Font name="Impact" size="42.0" />
+               </font>
+            </Label>
+            <Pane layoutX="150.0" layoutY="89.0" prefHeight="73.0" prefWidth="113.0" style="-fx-background-radius: 0;" styleClass="Fundo" />
+            <RadioButton fx:id="A21" layoutX="617.0" layoutY="146.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A22" layoutX="634.0" layoutY="146.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A24" layoutX="360.0" layoutY="145.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A23" layoutX="377.0" layoutY="145.0" mnemonicParsing="false" />
+            <RadioButton fx:id="A25" layoutX="500.0" layoutY="147.0" mnemonicParsing="false" />
+            <RadioButton fx:id="F1" layoutX="217.0" layoutY="177.0" mnemonicParsing="false" />
+            <RadioButton fx:id="F3" layoutX="194.0" layoutY="231.0" mnemonicParsing="false" />
+            <RadioButton fx:id="F5" layoutX="176.0" layoutY="282.0" mnemonicParsing="false" />
+                </children></Pane>
+              <Pane layoutY="-12.0" prefHeight="612.0" prefWidth="146.0" styleClass="FundoEstagio2" stylesheets="@DesignCompra.css">
+         <children>
+                      <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="-124.0" layoutY="65.0" prefHeight="46.0" prefWidth="365.0" rotate="-18.4" text="Teatro" textAlignment="CENTER" textFill="WHITE">
+                          <font>
+                              <Font name="Impact" size="31.0" />
+                          </font>
+                      </Label>
+                      <Label alignment="BASELINE_CENTER" contentDisplay="RIGHT" layoutX="-119.0" layoutY="94.0" prefHeight="46.0" prefWidth="365.0" rotate="-18.4" stylesheets="@DesignMenuInicial.css" text="Miranhas" textAlignment="CENTER" textFill="WHITE">
+                          <font>
+                              <Font name="Impact" size="31.0" />
+                          </font>
+                      </Label>
+                      <ImageView fitHeight="73.0" fitWidth="97.0" layoutX="73.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+                          <image>
+                              <Image url="@../Imagens/HomemAranha.png" />
+                          </image>
+                      </ImageView>
+            <Button fx:id="btnProsseguir" layoutX="20.0" layoutY="263.0" mnemonicParsing="false" onMouseClicked="#btnProsseguir" prefHeight="46.0" prefWidth="106.0" styleClass="Botoes" stylesheets="@DesignCompra.css" text="Prosseguir">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="btnVoltar" layoutX="20.0" layoutY="321.0" mnemonicParsing="false" onMouseClicked="#btnVoltar" prefHeight="46.0" prefWidth="106.0" styleClass="BotaoEntrar" stylesheets="@DesignLogin.css" text="Voltar">
+               <font>
+                  <Font name="Franklin Gothic Medium" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <RadioButton fx:id="B1" layoutX="190.0" layoutY="476.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B2" layoutX="207.0" layoutY="482.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B3" layoutX="224.0" layoutY="488.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B4" layoutX="241.0" layoutY="491.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B5" layoutX="259.0" layoutY="493.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B6" layoutX="188.0" layoutY="499.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B7" layoutX="206.0" layoutY="504.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B8" layoutX="223.0" layoutY="510.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B9" layoutX="240.0" layoutY="513.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B10" layoutX="258.0" layoutY="515.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B11" layoutX="203.0" layoutY="527.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B12" layoutX="220.0" layoutY="533.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B13" layoutX="237.0" layoutY="536.0" mnemonicParsing="false" />
+      <RadioButton fx:id="B14" layoutX="255.0" layoutY="538.0" mnemonicParsing="false" />
+        </children>
+</AnchorPane>
